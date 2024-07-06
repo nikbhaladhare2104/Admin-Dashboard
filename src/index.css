@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 , p{
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* CustomSidebar.css */
+.pro-sidebar-inner {
+  background: #3f51b5 !important;
+  /* Replace with colors.primary[400] */
+}
+
+.pro-icon-wrapper {
+  background-color: transparent !important;
+}
+
+.pro-inner-item {
+  padding: 5px 35px 5px 20px !important;
+}
+
+.pro-inner-item:hover {
+  color: #868dfb !important;
+}
+
+.pro-menu-item.active {
+  color: #6870fa !important;
+}
